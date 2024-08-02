@@ -11,7 +11,7 @@ const app = express();
 
 dotenv.config();
 app.use(cors({
-  origin: 'https://ansh0006.netlify.app'
+  origin: 'https://ansh06.netlify.app'
 }));
 app.use(express.json());
 
