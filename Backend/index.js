@@ -10,7 +10,9 @@ import userRoute from "./route/user.route.js";
 const app = express();
 
 dotenv.config();
-app.use(cors());
+app.use(cors({
+  origin: 'https://ansh0006.netlify.app'
+}));
 app.use(express.json());
 
 
